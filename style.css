@@ -1,0 +1,66 @@
+body {font-family:Arial;margin:0;}
+.landing {
+  background:url("https://images.pexels.com/photos/4505162/pexels-photo-4505162.jpeg");
+  height:100vh;
+  background-size:cover;
+}
+.landing-box{
+  background:rgba(0,0,0,0.5);
+  color:white;
+  text-align:center;
+  padding-top:200px;
+  height:100%;
+}
+
+.start-btn{
+  padding:16px 40px;
+  background:#4caf50;
+  border:none;
+  color:white;
+  border-radius:25px;
+}
+
+header{
+  background:#4caf50;
+  color:white;
+  padding:15px;
+  display:flex;
+  justify-content:space-between;
+}
+
+.grid{
+  display:flex;
+  gap:20px;
+  padding:10px;
+}
+
+.card{
+  width:180px;
+  padding:10px;
+  border-radius:12px;
+  box-shadow:0 5px 10px #0003;
+  text-align:center;
+}
+.card img{
+  width:100%;
+  height:140px;
+  object-fit:cover;
+  border-radius:10px;
+}
+
+button{
+  background:#4caf50;
+  border:none;
+  border-radius:20px;
+  padding:8px 15px;
+  color:white;
+}
+
+button:disabled{background:gray;}
+
+.cart-item{
+  padding:10px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}

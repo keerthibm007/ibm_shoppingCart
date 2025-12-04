@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Your Cart</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h2>Your Cart</h2>
+  <nav>
+    <a href="products.html">⬅ Continue Shopping</a>
+    <a href="#">🛒 (<span id="cartCount">0</span>)</a>
+  </nav>
+</header>
+
+<div id="cartArea"></div>
+
+<h3>Total Items: <span id="totalItems">0</span></h3>
+<h3>Total Cost: $<span id="totalPrice">0</span></h3>
+
+<button onclick="alert('Coming soon!')">Checkout</button>
+
+<script src="store.js"></script>
+<script src="script.js"></script>
+<script>renderCart()</script>
+
+</body>
+</html>

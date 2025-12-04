@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Products</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h2>GreenLeaf Shop</h2>
+  <nav>
+    <a href="products.html">Shop</a>
+    <a href="cart.html">🛒 (<span id="cartCount">0</span>)</a>
+  </nav>
+</header>
+
+<h3>Indoor Plants</h3>
+<div class="grid">
+  <div class="card">
+    <img src="https://images.pexels.com/photos/5699665/pexels-photo-5699665.jpeg">
+    <p>Snake Plant</p><p>$10</p>
+    <button onclick="addItem('Snake Plant',10,this)">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <img src="https://images.pexels.com/photos/5699661/pexels-photo-5699661.jpeg">
+    <p>Peace Lily</p><p>$12</p>
+    <button onclick="addItem('Peace Lily',12,this)">Add to Cart</button>
+  </div>
+</div>
+
+<h3>Flower Plants</h3>
+<div class="grid">
+  <div class="card">
+    <img src="https://images.pexels.com/photos/4505162/pexels-photo-4505162.jpeg">
+    <p>Orchid</p><p>$15</p>
+    <button onclick="addItem('Orchid',15,this)">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <img src="https://images.pexels.com/photos/573020/pexels-photo-573020.jpeg">
+    <p>Rose</p><p>$9</p>
+    <button onclick="addItem('Rose',9,this)">Add to Cart</button>
+  </div>
+</div>
+
+<h3>Desk Plants</h3>
+<div class="grid">
+  <div class="card">
+    <img src="https://images.pexels.com/photos/6208088/pexels-photo-6208088.jpeg">
+    <p>Bamboo</p><p>$8</p>
+    <button onclick="addItem('Bamboo',8,this)">Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <img src="https://images.pexels.com/photos/5699664/pexels-photo-5699664.jpeg">
+    <p>Cactus</p><p>$6</p>
+    <button onclick="addItem('Cactus',6,this)">Add to Cart</button>
+  </div>
+</div>
+
+<script src="store.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
